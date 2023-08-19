@@ -1,73 +1,82 @@
+/* Definición de estilos para el cuerpo del documento */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgba(220, 156, 105, 1);
+    font-family: Arial, sans-serif; /* Establece la fuente para el texto */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    display: flex; /* Usa el modelo de caja flexible */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% del alto de la ventana */
+    background-color: rgba(220, 156, 105, 1); /* Establece el color de fondo con formato RGBA */
   }
   
-.atm-container {
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    margin: 0 auto;
-    margin-top: 50px;
+  /* Definición de estilos para el contenedor principal */
+  .atm-container {
+    text-align: center; /* Centra el contenido del contenedor */
+    background-color: #f2f2f2; /* Establece el color de fondo del contenedor */
+    padding: 20px; /* Agrega espacio interno alrededor del contenido */
+    border-radius: 10px; /* Agrega bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra al contenedor */
+    max-width: 400px; /* Establece el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra horizontalmente el contenedor en su contenedor padre */
+    margin-top: 50px; /* Agrega un margen superior */
   }
   
+  /* Definición de estilos para el encabezado h1 */
   h1 {
-    color: #333;
+    color: #333; /* Establece el color del texto del encabezado */
   }
   
+  /* Definición de estilos para las etiquetas */
   label {
-    display: block;
-    margin-bottom: 5px;
+    display: block; /* Hace que las etiquetas sean elementos de bloque */
+    margin-bottom: 5px; /* Agrega un margen inferior */
   }
   
+  /* Definición de estilos para los botones */
   button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+    background-color: #007bff; /* Establece el color de fondo del botón */
+    color: white; /* Establece el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Agrega espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
   }
   
+  /* Cambio de estilo al pasar el cursor por encima del botón */
   button:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor */
   }
   
+  /* Definición de estilos para los elementos de entrada */
   select,
   input[type="password"] {
-    padding: 8px;
-    width: 60%;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+    padding: 8px; /* Agrega espaciado interno */
+    width: 60%; /* Establece el ancho de los elementos de entrada */
+    margin-bottom: 10px; /* Agrega un margen inferior */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    border: 1px solid #ccc; /* Agrega un borde */
   }
   
+  /* Definición de estilos para el contenedor de resultados */
   .result-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #f9f9f9;
+    border: 1px solid #ccc; /* Agrega un borde al contenedor */
+    padding: 10px; /* Agrega espacio interno */
+    margin-top: 10px; /* Agrega un margen superior */
+    background-color: #f9f9f9; /* Establece el color de fondo */
   }
   
+  /* Definición de estilos para elementos ocultos */
   .hidden {
-    display: none;
+    display: none; /* Oculta los elementos con esta clase */
   }
   
+  /* Definición de estilos para el contenedor de errores */
   .error-box {
-    border: 1px solid #ff4d4d;
-    background-color: #ffe8e8;
-    color: #ff4d4d;
-    padding: 5px;
-    margin-top: 5px;
-    display: none;
+    border: 1px solid #ff4d4d; /* Agrega un borde al contenedor de errores */
+    background-color: #ffe8e8; /* Establece el color de fondo del contenedor de errores */
+    color: #ff4d4d; /* Establece el color del texto */
+    padding: 5px; /* Agrega espacio interno */
+    margin-top: 5px; /* Agrega un margen superior */
+    display: none; /* Inicialmente oculta el contenedor de errores */
   }
-  
   
